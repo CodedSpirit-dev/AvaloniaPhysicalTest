@@ -9,11 +9,13 @@
       "AvaloniaPhysicalTest/1.0.0": {
         "dependencies": {
           "Avalonia": "11.3.5",
+          "Avalonia.Controls.DataGrid": "11.3.5",
           "Avalonia.Desktop": "11.3.5",
           "Avalonia.Diagnostics": "11.3.5",
           "Avalonia.Fonts.Inter": "11.3.5",
+          "Avalonia.ReactiveUI": "11.3.5",
           "Avalonia.Themes.Fluent": "11.3.5",
-          "CommunityToolkit.Mvvm": "8.2.1"
+          "CommunityToolkit.Mvvm": "8.4.0"
         },
         "runtime": {
           "AvaloniaPhysicalTest.dll": {}
@@ -102,6 +104,17 @@
           }
         }
       },
+      "Avalonia.Controls.DataGrid/11.3.5": {
+        "dependencies": {
+          "Avalonia": "11.3.5"
+        },
+        "runtime": {
+          "lib/net8.0/Avalonia.Controls.DataGrid.dll": {
+            "assemblyVersion": "11.3.5.0",
+            "fileVersion": "11.3.5.0"
+          }
+        }
+      },
       "Avalonia.Desktop/11.3.5": {
         "dependencies": {
           "Avalonia": "11.3.5",
@@ -168,6 +181,19 @@
             "rid": "osx",
             "assetType": "native",
             "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Avalonia.ReactiveUI/11.3.5": {
+        "dependencies": {
+          "Avalonia": "11.3.5",
+          "ReactiveUI": "20.1.1",
+          "System.Reactive": "6.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/Avalonia.ReactiveUI.dll": {
+            "assemblyVersion": "11.3.5.0",
+            "fileVersion": "11.3.5.0"
           }
         }
       },
@@ -245,11 +271,22 @@
           }
         }
       },
-      "CommunityToolkit.Mvvm/8.2.1": {
+      "CommunityToolkit.Mvvm/8.4.0": {
         "runtime": {
-          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
-            "assemblyVersion": "8.2.0.0",
-            "fileVersion": "8.2.1.1"
+          "lib/net8.0/CommunityToolkit.Mvvm.dll": {
+            "assemblyVersion": "8.4.0.0",
+            "fileVersion": "8.4.0.1"
+          }
+        }
+      },
+      "DynamicData/8.4.1": {
+        "dependencies": {
+          "System.Reactive": "6.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/DynamicData.dll": {
+            "assemblyVersion": "8.4.0.0",
+            "fileVersion": "8.4.1.20756"
           }
         }
       },
@@ -360,6 +397,18 @@
           }
         }
       },
+      "ReactiveUI/20.1.1": {
+        "dependencies": {
+          "DynamicData": "8.4.1",
+          "Splat": "15.1.1"
+        },
+        "runtime": {
+          "lib/net8.0/ReactiveUI.dll": {
+            "assemblyVersion": "20.1.0.0",
+            "fileVersion": "20.1.1.46356"
+          }
+        }
+      },
       "SkiaSharp/2.88.9": {
         "dependencies": {
           "SkiaSharp.NativeAssets.Win32": "2.88.9",
@@ -427,6 +476,22 @@
           }
         }
       },
+      "Splat/15.1.1": {
+        "runtime": {
+          "lib/net8.0/Splat.dll": {
+            "assemblyVersion": "15.1.0.0",
+            "fileVersion": "15.1.1.17670"
+          }
+        }
+      },
+      "System.Reactive/6.0.1": {
+        "runtime": {
+          "lib/net6.0/System.Reactive.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1.7420"
+          }
+        }
+      },
       "Tmds.DBus.Protocol/0.21.2": {
         "runtime": {
           "lib/net8.0/Tmds.DBus.Protocol.dll": {
@@ -464,6 +529,13 @@
       "path": "avalonia.controls.colorpicker/11.3.5",
       "hashPath": "avalonia.controls.colorpicker.11.3.5.nupkg.sha512"
     },
+    "Avalonia.Controls.DataGrid/11.3.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+vXeVNWDRDIdRZ+mOT/JIJtMM/7B/LBm3zksfZGn9rqdwcYG1dkoJDBdh0litoD5PpYttUewUXu18+0zkjdsTg==",
+      "path": "avalonia.controls.datagrid/11.3.5",
+      "hashPath": "avalonia.controls.datagrid.11.3.5.nupkg.sha512"
+    },
     "Avalonia.Desktop/11.3.5": {
       "type": "package",
       "serviceable": true,
@@ -498,6 +570,13 @@
       "sha512": "sha512-wlrRFixpwti1nslbPu0e3rsEqmu35sktsJctJ4YOCe6rohgBkjQcqTBy8NR/PyA/Cluf4gj1aCpqsahktqm0Sw==",
       "path": "avalonia.native/11.3.5",
       "hashPath": "avalonia.native.11.3.5.nupkg.sha512"
+    },
+    "Avalonia.ReactiveUI/11.3.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gCqE6AzLghhrwhG9XvEEyYzpBTyJx0PTyYNgGWJQFuJcHijpknUCrqU65PzJfWkrWy4JxPGvnFfblkAP2aAnIA==",
+      "path": "avalonia.reactiveui/11.3.5",
+      "hashPath": "avalonia.reactiveui.11.3.5.nupkg.sha512"
     },
     "Avalonia.Remote.Protocol/11.3.5": {
       "type": "package",
@@ -541,12 +620,19 @@
       "path": "avalonia.x11/11.3.5",
       "hashPath": "avalonia.x11.11.3.5.nupkg.sha512"
     },
-    "CommunityToolkit.Mvvm/8.2.1": {
+    "CommunityToolkit.Mvvm/8.4.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-I24ofWVEdplxYjUez9/bljv/qb8r8Ccj6cvYXHexNBegLaD3iDy3QrzAAOYVMmfGWIXxlU1ZtECQNfU07+6hXQ==",
-      "path": "communitytoolkit.mvvm/8.2.1",
-      "hashPath": "communitytoolkit.mvvm.8.2.1.nupkg.sha512"
+      "sha512": "sha512-tqVU8yc/ADO9oiTRyTnwhFN68hCwvkliMierptWOudIAvWY1mWCh5VFh+guwHJmpMwfg0J0rY+yyd5Oy7ty9Uw==",
+      "path": "communitytoolkit.mvvm/8.4.0",
+      "hashPath": "communitytoolkit.mvvm.8.4.0.nupkg.sha512"
+    },
+    "DynamicData/8.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Mn1+fU/jqxgONEJq8KLQPGWEi7g/hUVTbjZyn4QM0sWWDAVOHPO9WjXWORSykwdfg/6S3GM15qsfz+2EvO+QAQ==",
+      "path": "dynamicdata/8.4.1",
+      "hashPath": "dynamicdata.8.4.1.nupkg.sha512"
     },
     "HarfBuzzSharp/8.3.1.1": {
       "type": "package",
@@ -583,6 +669,13 @@
       "path": "microcom.runtime/0.11.0",
       "hashPath": "microcom.runtime.0.11.0.nupkg.sha512"
     },
+    "ReactiveUI/20.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9hNPknWjijnaSWs6auypoXqUptPZcRpUypF+cf1zD50fgW+SEoQda502N3fVZ2eWPcaiUad+z6GaLwOWmUVHNw==",
+      "path": "reactiveui/20.1.1",
+      "hashPath": "reactiveui.20.1.1.nupkg.sha512"
+    },
     "SkiaSharp/2.88.9": {
       "type": "package",
       "serviceable": true,
@@ -610,6 +703,20 @@
       "sha512": "sha512-wb2kYgU7iy84nQLYZwMeJXixvK++GoIuECjU4ECaUKNuflyRlJKyiRhN1MAHswvlvzuvkrjRWlK0Za6+kYQK7w==",
       "path": "skiasharp.nativeassets.win32/2.88.9",
       "hashPath": "skiasharp.nativeassets.win32.2.88.9.nupkg.sha512"
+    },
+    "Splat/15.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RHDTdF90FwVbRia2cmuIzkiVoETqnXSB2dDBBi/I35HWXqv4OKGqoMcfcd6obMvO2OmmY5PjU1M62K8LkJafAA==",
+      "path": "splat/15.1.1",
+      "hashPath": "splat.15.1.1.nupkg.sha512"
+    },
+    "System.Reactive/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rHaWtKDwCi9qJ3ObKo8LHPMuuwv33YbmQi7TcUK1C264V3MFnOr5Im7QgCTdLniztP3GJyeiSg5x8NqYJFqRmg==",
+      "path": "system.reactive/6.0.1",
+      "hashPath": "system.reactive.6.0.1.nupkg.sha512"
     },
     "Tmds.DBus.Protocol/0.21.2": {
       "type": "package",

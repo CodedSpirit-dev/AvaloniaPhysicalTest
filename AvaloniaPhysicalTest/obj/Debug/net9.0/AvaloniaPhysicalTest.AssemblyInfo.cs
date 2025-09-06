@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AvaloniaPhysicalTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+607f697a653a369b73a5524a4fdf9578afa12bc6")]
 [assembly: System.Reflection.AssemblyProductAttribute("AvaloniaPhysicalTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AvaloniaPhysicalTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

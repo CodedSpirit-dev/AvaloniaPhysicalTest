@@ -72,3 +72,10 @@ C:\Users\VIrad\RiderProjects\AvaloniaPhysicalTest\AvaloniaPhysicalTest\obj\Debug
 C:\Users\VIrad\RiderProjects\AvaloniaPhysicalTest\AvaloniaPhysicalTest\obj\Debug\net9.0\AvaloniaPhysicalTest.pdb
 C:\Users\VIrad\RiderProjects\AvaloniaPhysicalTest\AvaloniaPhysicalTest\obj\Debug\net9.0\AvaloniaPhysicalTest.genruntimeconfig.cache
 C:\Users\VIrad\RiderProjects\AvaloniaPhysicalTest\AvaloniaPhysicalTest\obj\Debug\net9.0\ref\AvaloniaPhysicalTest.dll
+C:\Users\VIrad\RiderProjects\AvaloniaPhysicalTest\AvaloniaPhysicalTest\bin\Debug\net9.0\Avalonia.Controls.DataGrid.dll
+C:\Users\VIrad\RiderProjects\AvaloniaPhysicalTest\AvaloniaPhysicalTest\bin\Debug\net9.0\Avalonia.ReactiveUI.dll
+C:\Users\VIrad\RiderProjects\AvaloniaPhysicalTest\AvaloniaPhysicalTest\bin\Debug\net9.0\DynamicData.dll
+C:\Users\VIrad\RiderProjects\AvaloniaPhysicalTest\AvaloniaPhysicalTest\bin\Debug\net9.0\ReactiveUI.dll
+C:\Users\VIrad\RiderProjects\AvaloniaPhysicalTest\AvaloniaPhysicalTest\bin\Debug\net9.0\Splat.dll
+C:\Users\VIrad\RiderProjects\AvaloniaPhysicalTest\AvaloniaPhysicalTest\bin\Debug\net9.0\System.Reactive.dll
+C:\Users\VIrad\RiderProjects\AvaloniaPhysicalTest\AvaloniaPhysicalTest\obj\Debug\net9.0\AvaloniaPhysicalTest.sourcelink.json
